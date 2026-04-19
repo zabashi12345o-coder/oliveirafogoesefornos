@@ -15,16 +15,16 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Oliveira Fogões e Fornos — Conserto de Fogões em Goiânia" },
+      { title: "Oliveira Fogões e Fornos — Conserto de Fogões, Cooktops e Fornos em Goiânia" },
       {
         name: "description",
         content:
-          "Especialista em conserto e manutenção de fogões e cooktops em Goiânia e região. Peças originais, garantia e atendimento rápido via WhatsApp.",
+          "Especialista em conserto e manutenção de fogões, cooktops e fornos em Goiânia, Aparecida e região. Peças originais, garantia e atendimento rápido via WhatsApp.",
       },
       { property: "og:title", content: "Oliveira Fogões e Fornos" },
       {
         property: "og:description",
-        content: "Conserto de fogões e cooktops em Goiânia e região. Atendimento rápido via WhatsApp.",
+        content: "Conserto de fogões, cooktops e fornos em Goiânia, Aparecida e região. Atendimento rápido via WhatsApp.",
       },
       { property: "og:image", content: logo },
     ],
@@ -71,7 +71,7 @@ function Index() {
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-4xl mx-auto leading-tight">
             Especialista em conserto de{" "}
             <span className="bg-clip-text text-transparent" style={{ backgroundImage: "var(--gradient-flame)" }}>
-              fogões e cooktops
+              fogões, cooktops e fornos
             </span>
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
