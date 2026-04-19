@@ -139,12 +139,13 @@ function Index() {
       <Section>
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Nossos Serviços</h2>
-          <p className="mt-3 text-muted-foreground">Soluções completas para o seu fogão</p>
+          <p className="mt-3 text-muted-foreground">Soluções completas para fogões, cooktops e fornos</p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
             { icon: Wrench, title: "Conserto de fogões" },
             { icon: Flame, title: "Manutenção de cooktops" },
+            { icon: Flame, title: "Manutenção de fornos" },
             { icon: Settings, title: "Troca de peças" },
             { icon: Sparkles, title: "Limpeza técnica" },
             { icon: Flame, title: "Ajuste de chama" },
@@ -188,7 +189,7 @@ function Index() {
             { icon: MapPin, title: "Atendimento em Goiânia, Aparecida e região" },
             { icon: ShieldCheck, title: "Peças originais" },
             { icon: CheckCircle2, title: "Garantia em todos os serviços" },
-            { icon: Flame, title: "Especialista em fogões e cooktops" },
+            { icon: Flame, title: "Especialista em fogões, cooktops e fornos" },
           ].map(({ icon: Icon, title }) => (
             <div key={title} className="text-center p-6 rounded-2xl bg-card border border-border">
               <div className="mx-auto w-14 h-14 rounded-full flex items-center justify-center mb-4" style={{ background: "var(--gradient-flame)" }}>
