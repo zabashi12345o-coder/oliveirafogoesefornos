@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.png";
 import antes1 from "@/assets/antes-1.png";
 import depois1 from "@/assets/depois-1.png";
 import antes2 from "@/assets/antes-2.png";
