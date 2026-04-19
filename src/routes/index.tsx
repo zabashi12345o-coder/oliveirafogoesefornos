@@ -66,7 +66,7 @@ function Index() {
           <img
             src={logo}
             alt="Oliveira Fogões e Fornos - logo"
-            className="mx-auto w-48 md:w-64 rounded-2xl shadow-[var(--shadow-card)] mb-8"
+            className="mx-auto w-full max-w-md md:max-w-xl mb-8"
           />
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-4xl mx-auto leading-tight">
             Especialista em conserto de{" "}
@@ -227,7 +227,7 @@ function Index() {
       <footer className="border-t border-border py-10 px-4 bg-card/40">
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 text-center md:text-left">
           <div>
-            <img src={logo} alt="Oliveira Fogões e Fornos" className="h-14 w-14 rounded-lg mx-auto md:mx-0 mb-3" />
+            <img src={logo} alt="Oliveira Fogões e Fornos" className="h-14 w-auto mx-auto md:mx-0 mb-3" />
             <p className="font-bold">Oliveira Fogões e Fornos</p>
             <p className="text-sm text-muted-foreground">Especialista em conserto e manutenção</p>
           </div>
