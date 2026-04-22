@@ -9,7 +9,7 @@ import av2 from "@/assets/avaliacao-2.png";
 import av3 from "@/assets/avaliacao-3.png";
 import av4 from "@/assets/avaliacao-4.png";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, MapPin, ShieldCheck, Wrench, Flame, Sparkles, Settings, CheckCircle2 } from "lucide-react";
+import { MessageCircle, MapPin, ShieldCheck, Wrench, Flame, Sparkles, Settings, CheckCircle2, Home, Utensils, Factory, Microwave, Square, Soup, Droplets } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -139,12 +139,20 @@ function Index() {
       <Section>
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Nossos Serviços</h2>
-          <p className="mt-3 text-muted-foreground">Soluções completas para fogões, cooktops e fornos</p>
+          <p className="mt-3 text-muted-foreground">
+            Atendimento a domicílio com soluções completas para sua cozinha residencial e industrial
+          </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
+            { icon: Home, title: "Serviços a domicílio" },
             { icon: Wrench, title: "Conserto de fogões" },
             { icon: Flame, title: "Manutenção de cooktops" },
+            { icon: Factory, title: "Fogões industriais" },
+            { icon: Microwave, title: "Fornos a gás e elétrico" },
+            { icon: Square, title: "Chapas a gás e elétrico" },
+            { icon: Droplets, title: "Fritadeiras a água e a óleo" },
+            { icon: Soup, title: "Cubas e banho-maria" },
             { icon: Flame, title: "Manutenção de fornos" },
             { icon: Settings, title: "Troca de peças" },
             { icon: Sparkles, title: "Limpeza técnica" },
