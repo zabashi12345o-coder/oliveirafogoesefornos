@@ -102,6 +102,11 @@ function Index() {
             Atendimento profissional, rápido e com diagnóstico preciso. Trabalhamos com peças originais
             e garantia em todos os serviços.
           </p>
+          <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
+            Trabalhamos também com <span className="text-foreground font-medium">serviços a domicílio</span> em
+            fogões, cooktops, fogões industriais, fornos a gás e elétrico, chapas a gás e elétrico,
+            fritadeiras a água e a óleo, cubas e banho-maria.
+          </p>
         </div>
       </Section>
 
